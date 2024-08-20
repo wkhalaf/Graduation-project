@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.model.Person;
 import com.example.service.PersonService;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @CrossOrigin
 @RestController
