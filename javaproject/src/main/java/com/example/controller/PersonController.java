@@ -32,7 +32,7 @@ public class PersonController {
 	// }
 	@GetMapping()
 	public String hello() {
-		return "devops test";
+		return "devops ayhaga ";
 	}
 }
 
