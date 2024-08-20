@@ -29,5 +29,9 @@ public class PersonController {
 	public Person getPerson(@PathVariable("id") String id) {
 		return ps.getPerson(id);
 	}
+	@RequestMapping("/")
+	public String getPerson(@PathVariable("id") String id) {
+		return "devops test";
+	}
 }
 
