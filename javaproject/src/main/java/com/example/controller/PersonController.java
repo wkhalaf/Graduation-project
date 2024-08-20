@@ -17,18 +17,18 @@ import com.example.service.PersonService;
 @RequestMapping("/persons")
 public class PersonController {
 
-	@Autowired
-	PersonService ps;
+	// @Autowired
+	// PersonService ps;
 
-	@RequestMapping("/all")
-	public ArrayList<Person> getAll() {
-		return ps.getAll();
-	}
+	// @RequestMapping("/all")
+	// public ArrayList<Person> getAll() {
+	// 	return ps.getAll();
+	// }
 
-	@RequestMapping("{id}")
-	public Person getPerson(@PathVariable("id") String id) {
-		return ps.getPerson(id);
-	}
+	// @RequestMapping("{id}")
+	// public Person getPerson(@PathVariable("id") String id) {
+	// 	return ps.getPerson(id);
+	// }
 	@RequestMapping("/")
 	public String getPerson(@PathVariable("id") String id) {
 		return "devops test";
